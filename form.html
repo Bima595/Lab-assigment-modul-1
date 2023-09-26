@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <label for="Nama">Nama</label>
+        <input type="text" id="nama" style="margin-left: 2px;">
+        <br>
+        <label for="nim">Nim</label>
+        <input type="number" id="nim" style="margin-left: 12px;">
+        <br>
+        <label for="tanggal">tanggal</label>
+        <input type="date" id="tanggal" name="tanggal" style="margin-left: 12px;">
+        <br>
+        <label for="alamat">Alamat</label>
+        <textarea name="alamat" id="alamat" cols="21" rows="5"></textarea>
+        <br>
+        <button type="submit" onclick="tambahdata()">Simpan</button>
+    </div>
+    <table id="data-table" border="1" style="color: orange;">
+        <thead>
+            <tr style="background-color: black;">
+                <th>Nama</th>
+                <th>Nim</th>
+                <th>tanggal</th>
+                <th>Alamat</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+</body>
+<script src="index.js"></script>
+
+</html>
